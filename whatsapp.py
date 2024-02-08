@@ -36,11 +36,11 @@ def wa_sms_reply():
 
     # Text response
     if msg == "hi":
-       reply.body("hello!")
+       reply.body("hey")
 
     # Image response
     elif msg == "image":
-       reply.media('https://raw.githubusercontent.com/fbsamples/original-coast-clothing/main/public/styles/male-work.jpg',caption="jj ccp")
+       reply.media('https://farm9.staticflickr.com/8295/8007075227_dc958c1fe6_z_d.jpg', caption="flower")
     
     # Audio response
     elif msg == "audio":
